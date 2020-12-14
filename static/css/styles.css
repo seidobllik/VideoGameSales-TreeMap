@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+.tile {
+  fill: blue;
+  .opacity: 0.3;
+  stroke: white;
+}
+
+text {
+  fill: black;
+  font-size: 10px;
+  pointer-events: none;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background: black;
+  color: white;
+  text-align: left;
+  border-radius: 5px;
+  padding: 5px;
+}
